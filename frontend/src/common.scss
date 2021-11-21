@@ -1,0 +1,39 @@
+@import "./variables.scss";
+
+body {
+  min-height: 100vh;
+}
+.my-container {
+  width: 100%;
+  height: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.btn-filled {
+  padding: 16px 24px;
+  max-width: max-content;
+  border-radius: 40px;
+  background-color: $black;
+  font-size: 14px;
+  line-height: 1;
+}
+.store-button {
+  background: linear-gradient(180deg, #bfad75 0%, #988857 100%);
+  border: 5px solid #8a7c4e;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 10px 0;
+}
+.abs-centering {
+  @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2;
+}
+
+.back-home-button {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  box-sizing: border-box;
+  background: #d88535;
+  border: 3px solid #ad6016;
+}

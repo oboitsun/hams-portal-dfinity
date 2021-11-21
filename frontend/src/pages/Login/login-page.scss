@@ -1,0 +1,36 @@
+@import "../../variables.scss";
+#login-page {
+  color: white;
+  display: flex;
+
+  align-items: center;
+  .background {
+    @apply w-full h-full object-cover absolute top-0 left-0;
+  }
+  .shade-gradient {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(180deg, transparent, #000);
+  }
+  .login-window {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 564px;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+  .heading {
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 32px;
+    line-height: 1;
+    font-size: 48px;
+  }
+}

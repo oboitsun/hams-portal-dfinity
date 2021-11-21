@@ -1,0 +1,19 @@
+@import "../../variables.scss";
+.grid-custom {
+  display: grid;
+  padding: 15px 20px;
+  line-height: 1;
+  font-size: 20px;
+  color: white;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 24px;
+
+  align-items: center;
+  padding: 0 20px;
+  height: 80px;
+  .heading {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 700;
+  }
+}

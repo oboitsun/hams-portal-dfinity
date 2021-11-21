@@ -1,0 +1,4 @@
+Canister created with id: "mm2ou-wyaaa-aaaak-aabfa-cai"
+Installing code for canister assets, with canister_id ml3ia-3aaaa-aaaak-aabfq-cai
+"counter" canister created on network "ic" with canister id: "m64zn-2iaaa-aaaak-aabga-cai"
+Local add: http://rrkah-fqaaa-aaaaa-aaaaq-cai.localhost:8000/
